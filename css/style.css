@@ -1,0 +1,12 @@
+* { margin:0; padding:0;  box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; list-style:none; }
+.todo-widget{width:45%;max-width:300px;display: inline-block;vertical-align: top;margin: auto;margin:30px 10px;}
+.todo-form input.todo-input{background: none;border: none;border-bottom: 1px solid rgba(0,0,0,0.2);padding: 10px 5px;}
+.todo-form input.todo-input:focus{outline: none;}
+/*ul.todo-list, ul.todo-list li{list-style: none;}*/
+.todo-list span:before {content: "";display: inline-block;width: 10px;height: 10px;border: 1px solid #CCC;margin-right: 10px;border-radius: 50%;}
+.todo-list span.completed:before{content :"✓";border:none;}
+.todo-list span:focus:before{display: none;}
+.todo-list span{width: 80%;display: inline-block;padding: 10px 10px 5px 10px;}
+.todo-list span:focus{outline:none;border-bottom:1px solid rgba(0,0,0,0.2)}
+.todo-list button{height:20px; width:20px;border: none;vertical-align: middle;cursor: pointer;}
+.todo-list button.delete{background:url(../images/delete.png);background-size: cover;}
